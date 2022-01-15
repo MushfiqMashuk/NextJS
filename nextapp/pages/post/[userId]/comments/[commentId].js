@@ -1,8 +1,10 @@
 import { useRouter } from "next/router";
 
 export default function UserComment() {
-  const { userId, commentId } = useRouter().query;
-  console.log(useRouter().query.params);
+  const router = useRouter();
+  const { userId, commentId } = router.query;
+  const { ...params } = router.query;
+  console.log(router.query);
   return (
     <h1>
       This is {userId} No. user's {commentId} no. comment

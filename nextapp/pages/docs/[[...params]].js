@@ -1,5 +1,6 @@
 //This is called a catch all route
 
+import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function Doc() {
@@ -7,7 +8,7 @@ export default function Doc() {
 
   const { params = [] } = router.query;
 
-  console.log(params);
+  console.log(router.query);
 
   if (params.length === 2) {
     return (
@@ -19,5 +20,10 @@ export default function Doc() {
     return <h1>Viewing docs for {params[0]}</h1>;
   }
 
-  return <h1>Doc Section</h1>;
+  return (
+    <>
+      <Link href="/">Home Page</Link>
+      <h1>Doc Section</h1>
+    </>
+  );
 }
