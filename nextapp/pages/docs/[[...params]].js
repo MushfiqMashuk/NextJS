@@ -22,7 +22,9 @@ export default function Doc() {
 
   return (
     <>
-      <Link href="/">Home Page</Link>
+      <Link href="/">
+        <a>Home Page</a>
+      </Link>
       <h1>Doc Section</h1>
     </>
   );

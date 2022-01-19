@@ -8,6 +8,9 @@ export default function Home() {
       <Link href="/docs">
         <a>Doc Page</a>
       </Link>
+      <Link href="/users">
+        <a>Users Page</a>
+      </Link>
     </div>
   );
 }
