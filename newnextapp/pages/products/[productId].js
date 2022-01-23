@@ -25,6 +25,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+  console.log("Regenerating...");
   const res = await fetch(`http://localhost:4000/products/${params.productId}`);
   const data = await res.json();
 
@@ -32,5 +33,6 @@ export async function getStaticProps({ params }) {
     props: {
       product: data,
     },
+    revalidate: 60,
   };
 }

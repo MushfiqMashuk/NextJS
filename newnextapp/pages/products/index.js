@@ -13,12 +13,14 @@ export default function GetAllProducts({ products }) {
 }
 
 export async function getStaticProps() {
+  console.log("Generating...");
   const res = await fetch("http://localhost:4000/products");
   const data = await res.json();
 
   return {
-    props: {
+    props: { 
       products: data,
     },
+    revalidate: 30,
   };
 }
