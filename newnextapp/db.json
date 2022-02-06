@@ -1,4 +1,30 @@
 {
+  "dashboard": {
+    "post": 23,
+    "likes": 20,
+    "users": 3050,
+    "followers": 34
+  },
+  "news": [
+    {
+      "id": 1,
+      "title": "Title 1",
+      "description": "Description 1",
+      "category": "Sports"
+    },
+    {
+      "id": 2,
+      "title": "Title 2",
+      "description": "Description 2",
+      "category": "Science"
+    },
+    {
+      "id": 3,
+      "title": "Title 3",
+      "description": "Description 3",
+      "category": "Sports"
+    }
+  ],
   "products": [
     {
       "id": 1,
@@ -17,6 +43,79 @@
       "title": "Product 3",
       "price": 3300,
       "description": "Description 3"
+    }
+  ],
+
+  "events": [
+    {
+      "id": 1,
+      "title": "Title 1",
+      "description": "Description 1",
+      "category": "sports",
+      "date": "April 1"
+    },
+    {
+      "id": 2,
+      "title": "Title 2",
+      "description": "Description 2",
+      "category": "international",
+      "date": "May 23"
+    },
+    {
+      "id": 3,
+      "title": "Title 3",
+      "description": "Description 3",
+      "category": "national",
+      "date": "June 1"
+    },
+    {
+      "id": 4,
+      "title": "Title 4",
+      "description": "Description 4",
+      "category": "art",
+      "date": "July 13"
+    },
+    {
+      "id": 5,
+      "title": "Title 5",
+      "description": "Description 5",
+      "category": "food",
+      "date": "August 1"
+    },
+    {
+      "id": 6,
+      "title": "Title 6",
+      "description": "Description 6",
+      "category": "sports",
+      "date": "September 1"
+    },
+    {
+      "id": 7,
+      "title": "Title 7",
+      "description": "Description 7",
+      "category": "sports",
+      "date": "October 4"
+    },
+    {
+      "id": 8,
+      "title": "Title 8",
+      "description": "Description 8",
+      "category": "sports",
+      "date": "November 7"
+    },
+    {
+      "id": 9,
+      "title": "Title 9",
+      "description": "Description 9",
+      "category": "politics",
+      "date": "December 18"
+    },
+    {
+      "id": 10,
+      "title": "Title 10",
+      "description": "Description 10",
+      "category": "technology",
+      "date": "January 6"
     }
   ]
 }

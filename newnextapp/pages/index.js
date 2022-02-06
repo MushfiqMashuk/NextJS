@@ -13,6 +13,9 @@ export default function Home() {
       <Link href="/posts">
         <a>Posts Page</a>
       </Link>
+      <Link href="/news">
+        <a>News Page</a>
+      </Link>
     </div>
   );
 }
